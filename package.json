@@ -61,6 +61,6 @@
     "build:esm": "rimraf dist && node ../../scripts/buildBase.js && yarn gen:types"
   },
   "dependencies": {
-    "@excalidraw/common": "0.18.0-6903f6ba"
+    "@excalidraw/common": "git+https://github.com/965283058/-excalidraw-common.git"
   }
 }
